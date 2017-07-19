@@ -1,9 +1,10 @@
-(function () {
-  angular.module('myFirstApp')
-  .controller('MyFirstController',function($scope){
-$scope.name="Priyabrat";
-$scope.sayHello=function (){
-  return "Hello Coursera";
+(function(){
+  'use strict';
+  angular.module('myFirstApp',[])
+  .controller('myFirstController',function($scope){
+$scope.name="priyabrat";
+$scope.sayHello=function(){
+  return "hello coursera";
 };
   });
 })();
